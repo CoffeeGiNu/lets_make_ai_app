@@ -1,0 +1,26 @@
+[project]
+name = "lets-make-ai-app"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "CoffeeGiNu", email = "co4800@protonmail.com" }
+]
+dependencies = [
+    "tiktoken>=0.4.0",
+    "streamlit>=1.25.0",
+    "langchain>=0.0.27",
+    "openai>=0.27.8",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
